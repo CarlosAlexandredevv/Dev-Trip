@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Veneza",
+    "description": "Venha se perder nas ruas estreitas e canais encantadores que, de maneira maravilhosa, renovarão seu espírito cansado. Viva a magia de Veneza e deixe-se transformar.",
+    "image": "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Paris",
+    "description": "Perca-se nas ruas parisienses e nos charmosos boulevards que, de maneira cativante, renovam seu espírito. Viva a magia de Paris e deixe-se encantar por sua beleza única",
+    "image": "https://images.unsplash.com/photo-1550340499-a6c60fc8287c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Rio de Janeiro",
+    "description": "Explore as praias deslumbrantes e os morros imponentes que, de maneira envolvente, renovam seu espírito. Viva a energia do Rio de Janeiro e deixe-se seduzir pela sua vibrante diversidade cultural e natural.",
+    "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Grécia",
+    "description": "Descubra as ruínas ancestrais e as ilhas pitorescas que, de maneira fascinante, transportam você para tempos míticos. Viva a essência da Grécia e deixe-se inspirar por sua história rica e paisagens deslumbrantes.",
+    "image": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]

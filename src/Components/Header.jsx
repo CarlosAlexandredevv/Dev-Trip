@@ -86,27 +86,44 @@ export function Header() {
 
       {/* Min 768px */}
       <header className="hidden w-full justify-evenly items-center p-6 bg-primary text-white md:flex">
-        <NavLink to="/" className="font-extrabold text-3xl italic">
+        <NavLink
+          to="/"
+          className="font-extrabold text-3xl italic hover:text-red-600 duration-300"
+        >
           DevTrip
         </NavLink>
         <nav className="flex gap-8 font-bold">
-          <NavLink to="passagens" className="flex gap-1">
+          <NavLink
+            to="passagens"
+            className="flex gap-1 hover:text-red-600 duration-300"
+          >
             Passagens <Plane />
           </NavLink>
-          <NavLink to="pacotes" className="flex gap-1">
+          <NavLink
+            to="pacotes"
+            className="flex gap-1 hover:text-red-600 duration-300"
+          >
             Pacotes <BaggageClaim />
           </NavLink>
-          <NavLink to="hoteis" className="flex gap-1">
+          <NavLink
+            to="hoteis"
+            className="flex gap-1 hover:text-red-600 duration-300"
+          >
             Hotéis <Hotel />
           </NavLink>
-          <NavLink to="carros" className="flex gap-1">
+          <NavLink
+            to="carros"
+            className="flex gap-1 hover:text-red-600 duration-300"
+          >
             Carros <Car />
           </NavLink>
         </nav>
         <div className="flex gap-8 center">
-          <button>Sign In</button>
+          <button className=" hover:text-red-600 duration-300">
+            Cadastre-se
+          </button>
           <button className="flex gap-1 px-6 py-2 border-2 border-red-600 rounded-full hover:bg-red-600 duration-300">
-            Sign UP <User />
+            Entrar <User />
           </button>
         </div>
       </header>

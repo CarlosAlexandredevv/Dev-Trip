@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Home } from './Components/Home';
+import { Home } from './Components/Home/Home';
 import { Header } from './Components/Header';
-import { Passagens } from './Components/Passagens';
-import { Hoteis } from './Components/Hoteis';
-import { Pacotes } from './Components/Pacotes';
+import { Passagens } from './Components/Passagens/Passagens';
+import { Hoteis } from './Components/Hoteis/Hoteis';
+import { Pacotes } from './Components/Pacotes/Pacotes';
 
 function App() {
   return (
