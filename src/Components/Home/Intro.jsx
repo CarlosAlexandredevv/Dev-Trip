@@ -1,10 +1,15 @@
-import { Carousel, Typography, Button } from '@material-tailwind/react';
+import { Carousel, Typography } from '@material-tailwind/react';
 import introData from '../../api/intro.json';
 
 export function Intro() {
   return (
     <section>
-      <Carousel className="h-[400px]">
+      <Carousel
+        className="h-[400px]"
+        autoplay={true}
+        autoplayDelay={5000}
+        loop={true}
+      >
         {introData.map((item, index) => (
           <div key={index} className="relative h-full w-full">
             <img
