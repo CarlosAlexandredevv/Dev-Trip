@@ -13,8 +13,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="passagens" element={<Passagens />} />
-        <Route path="hoteis" element={<Hoteis />} />
         <Route path="pacotes" element={<Pacotes />} />
+        <Route path="hoteis" element={<Hoteis />} />
+        {/* <Router path="carros" element={<Carros />} /> */}
       </Routes>
     </BrowserRouter>
   );
