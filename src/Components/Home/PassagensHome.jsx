@@ -19,7 +19,7 @@ export function PassagensHome() {
         <Plane />
       </h1>
       <section className="max-w-[900px] my-0 mx-auto grid grid-cols-2 items-center justify-center rounded gap-10 min-h-[200px]">
-        <img src="public\TravelBooking.svg" alt="hero" />
+        <img src="TravelBooking.svg" alt="hero" />
 
         <div className="scrollmenu flex gap-6 p-8 pl-4 pt-0 cursor-pointer">
           {/* Iterar sobre as promoções */}
