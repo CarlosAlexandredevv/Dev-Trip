@@ -1,10 +1,12 @@
 import { Intro } from './Intro';
-import { Promocoes } from './PacoteHome';
+import { PacotesHome } from './PacotesHome';
+import { PassagensHome } from './PassagensHome';
 export function Home() {
   return (
     <>
       <Intro />
-      <Promocoes />
+      <PacotesHome />
+      <PassagensHome />
     </>
   );
 }

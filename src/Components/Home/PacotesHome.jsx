@@ -1,13 +1,19 @@
+import { Button } from '../Button';
 import { BaggageClaim } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import promocoesData from '../../api/promocoes.json';
+import promocoesData from '../../api/pacotes.json';
 
-export function Promocoes() {
+// Função para remover acentos
+const removeAccents = (str) => {
+  return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+};
+
+export function PacotesHome() {
   const promocoes = promocoesData;
 
   return (
     <>
-      <h1 className="text-center pt-4 pb-4 font-bold to-blue-gray-800 flex justify-center gap-1">
+      <h1 className="text-center pt-4 pb-4 font-bold to-blue-gray-800 flex justify-center gap-1 text-2xl items-center flex-nowrap.">
         Pacotes para sua viagem
         <BaggageClaim />
       </h1>
@@ -16,14 +22,14 @@ export function Promocoes() {
           <Link
             key={index}
             to={`/pacotes/${encodeURIComponent(
-              promocao.nome_do_local.toLowerCase(),
+              removeAccents(promocao.nome_do_local.toLowerCase()),
             )}`}
             className="flex w-full gap-5 p-4 shadow-lg max-w-[400px] hover:scale-110 duration-300 cursor-pointer"
           >
             <div>
               <img
                 src={promocao.imagem_do_local}
-                alt=""
+                alt={promocao.nome_do_local}
                 className="w-32 object-cover rounded"
               />
             </div>
@@ -46,9 +52,7 @@ export function Promocoes() {
       </section>
       <div className="w-full flex justify-center">
         <Link to="/pacotes">
-          <button className="bg-primary px-4 py-2 text-white rounded font-bold mt-5 hover:bg-red-600 duration-300 md:mr-10">
-            Confira mais
-          </button>
+          <Button>Confira Mais</Button>
         </Link>
       </div>
     </>

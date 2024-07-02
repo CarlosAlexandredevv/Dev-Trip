@@ -78,3 +78,12 @@
 * {
   font-family: 'Poppins', 'sans-serif';
 }
+
+/* Oculta as barras de rolagem para todos os navegadores */
+.scrollmenu {
+  overflow-y: hidden;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+

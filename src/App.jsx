@@ -5,6 +5,7 @@ import { Header } from './Components/Header';
 import { Passagens } from './Components/Passagens/Passagens';
 import { Hoteis } from './Components/Hoteis/Hoteis';
 import { Pacotes } from './Components/Pacotes/Pacotes';
+import { Carros } from './Components/Carros/Carros';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="passagens" element={<Passagens />} />
         <Route path="pacotes" element={<Pacotes />} />
         <Route path="hoteis" element={<Hoteis />} />
-        {/* <Router path="carros" element={<Carros />} /> */}
+        <Route path="carros" element={<Carros />} />
       </Routes>
     </BrowserRouter>
   );
