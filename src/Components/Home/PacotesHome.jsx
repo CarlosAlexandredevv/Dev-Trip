@@ -3,7 +3,6 @@ import { BaggageClaim } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import promocoesData from '../../api/pacotes.json';
 
-// Função para remover acentos
 const removeAccents = (str) => {
   return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 };
@@ -13,9 +12,9 @@ export function PacotesHome() {
 
   return (
     <>
-      <h1 className="text-center pt-4 pb-4 font-bold to-blue-gray-800 flex justify-center gap-1 text-2xl items-center flex-nowrap.">
-        Pacotes para sua viagem
+      <h1 className="text-center py-4 font-bold text-blue-gray-800 flex justify-center gap-1 text-2xl items-center">
         <BaggageClaim />
+        Pacotes para sua viagem
       </h1>
       <section className="max-w-[900px] my-0 mx-auto grid items-center justify-center rounded gap-5 md:grid-cols-2">
         {promocoes.map((promocao, index) => (

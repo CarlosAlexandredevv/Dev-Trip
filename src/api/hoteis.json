@@ -1,0 +1,22 @@
+[
+  {
+    "local": "Veneza",
+    "valor_diaria": 450,
+    "imagem": "https://images.unsplash.com/photo-1518730518541-d0843268c287?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "local": "Paris",
+    "valor_diaria": 500,
+    "imagem": "https://images.unsplash.com/photo-1471623432079-b009d30b6729?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "local": "Rio de Janeiro",
+    "valor_diaria": 650,
+    "imagem": "https://images.unsplash.com/photo-1543958871-ccfa180a0c39?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "local": "Grécia",
+    "valor_diaria": 900,
+    "imagem": "https://images.unsplash.com/photo-1598395927056-8d895e701c3b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]
