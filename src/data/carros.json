@@ -1,0 +1,32 @@
+{
+  "veiculos": [
+    {
+      "nome": "SUV Luxo",
+      "imagem": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantidade_pessoas": 5,
+      "dias": 7,
+      "valor": 750
+    },
+    {
+      "nome": "Van Familiar",
+      "imagem": "https://images.unsplash.com/photo-1597685204565-110abf469a1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantidade_pessoas": 7,
+      "dias": 10,
+      "valor": 450
+    },
+    {
+      "nome": "Carro Compacto",
+      "imagem": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantidade_pessoas": 2,
+      "dias": 3,
+      "valor": 150
+    },
+    {
+      "nome": "Sedan luxo",
+      "imagem": "https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantidade_pessoas": 5,
+      "dias": 3,
+      "valor": 500
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import { Carousel, Typography } from '@material-tailwind/react';
-import introData from '../../api/intro.json';
+import introData from '../../data/intro.json';
 
 export function Intro() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Plane } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import promocoesData from '../../api/passagens.json';
+import promocoesData from '../../data/passagens.json';
 import { Button } from '../Button';
 
 export function PassagensHome() {
@@ -13,12 +13,14 @@ export function PassagensHome() {
 
   return (
     <>
-      <h1 className="text-center py-4 font-bold text-blue-gray-800 flex justify-center gap-1 text-2xl items-center">
+      <h1 className="text-center py-4 font-bold text-blue-gray-800 flex justify-center gap-2 items-center text-2xl md:text-3xl">
         <Plane />
         Passagens aéreas
       </h1>
-      <section className="max-w-[900px] my-0 mx-auto grid grid-cols-2 items-center justify-center rounded gap-10 min-h-[200px]">
-        <img src="TravelBooking.svg" alt="hero" />
+      <section className="max-w-[1200px] my-0 mx-auto grid grid-cols-2 items-center justify-center rounded gap-10 min-h-[200px]">
+        <div className="ml-4">
+          <img src="TravelBooking.svg" alt="hero" />
+        </div>
 
         <div className="scrollmenu flex gap-6 p-8 pl-4 pt-0 cursor-pointer">
           {/* Iterar sobre as promoções */}

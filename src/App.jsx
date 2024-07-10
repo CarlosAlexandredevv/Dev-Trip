@@ -6,6 +6,7 @@ import { Passagens } from './Components/Passagens/Passagens';
 import { Hoteis } from './Components/Hoteis/Hoteis';
 import { Pacotes } from './Components/Pacotes/Pacotes';
 import { Carros } from './Components/Carros/Carros';
+import { Footer } from './Components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="hoteis" element={<Hoteis />} />
         <Route path="carros" element={<Carros />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
