@@ -21,7 +21,7 @@ export function Faq() {
       <Accordion
         type="single"
         collapsible
-        className="flex flex-col gap-6 px-6 py-9 shadow-lg rounded-lg border"
+        className="flex flex-col gap-6 px-6 py-9 shadow-lg rounded-lg border mx-4"
       >
         <AccordionItem value="item-1">
           <AccordionTrigger>
