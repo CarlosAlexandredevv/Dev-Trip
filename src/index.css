@@ -86,6 +86,8 @@
   overflow-x: scroll;
 }
 
-.active{
-  border-bottom: 2px red solid;
+@media screen and (min-width: 768px) {
+  .active {
+    border-bottom: 2px solid red;
+  }
 }
