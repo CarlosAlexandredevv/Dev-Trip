@@ -10,17 +10,21 @@ import { Footer } from './Components/Footer';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="passagens" element={<Passagens />} />
-        <Route path="pacotes" element={<Pacotes />} />
-        <Route path="hoteis" element={<Hoteis />} />
-        <Route path="carros" element={<Carros />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <div className="flex flex-col min-h-screen">
+      <BrowserRouter>
+        <Header />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="passagens" element={<Passagens />} />
+            <Route path="pacotes" element={<Pacotes />} />
+            <Route path="hoteis" element={<Hoteis />} />
+            <Route path="carros" element={<Carros />} />
+          </Routes>
+        </main>
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 }
 

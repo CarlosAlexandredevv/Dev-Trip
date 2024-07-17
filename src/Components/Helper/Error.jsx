@@ -1,3 +1,3 @@
 export function Error({ message }) {
-  return message ? <div className="text-red-500">{message}</div> : null;
+  return message ? <p className="text-red-500">{message}</p> : null;
 }

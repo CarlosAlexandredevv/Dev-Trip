@@ -75,7 +75,7 @@ export function Novidades() {
             />
             {emailError && <Error message={emailError} />}
             <Button onClick={handleClick}>ASSINAR</Button>
-            <Toaster richColors position="top-center" />
+            <Toaster richColors position="top-center" expand={true} />
           </form>
           <p className="text-xs">
             Concordo em receber comunicações, ofertas e compartilhar meus dados
