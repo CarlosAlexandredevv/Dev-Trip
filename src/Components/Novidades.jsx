@@ -65,7 +65,10 @@ export function Novidades() {
               onChange={(e) => setName(e.target.value)}
               error={nameError}
             />
-            {nameError && <Error message={nameError} />}
+            <p className="text-base">
+              {nameError && <Error message={nameError} />}
+            </p>
+
             <Input
               type="email"
               placeholder="Digite seu email"
@@ -73,7 +76,9 @@ export function Novidades() {
               onChange={(e) => setEmail(e.target.value)}
               error={emailError}
             />
-            {emailError && <Error message={emailError} />}
+            <p className="text-base">
+              {emailError && <Error message={emailError} />}
+            </p>
             <Button onClick={handleClick}>ASSINAR</Button>
             <Toaster richColors position="top-center" expand={true} />
           </form>

@@ -7,12 +7,15 @@ import { Hoteis } from './Components/Hoteis/Hoteis';
 import { Pacotes } from './Components/Pacotes/Pacotes';
 import { Carros } from './Components/Carros/Carros';
 import { Footer } from './Components/Footer';
-
+import { Toaster } from 'sonner';
+import PageTitle from './Components/PageTitle';
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <BrowserRouter>
+        <Toaster richColors position="top-center" />
         <Header />
+        <PageTitle />
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
