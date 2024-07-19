@@ -84,7 +84,7 @@ export function Novidades() {
           </form>
           <p className="text-xs">
             Concordo em receber comunicações, ofertas e compartilhar meus dados
-            pessoais com a CVC e empresas parceiras. Para mais informações,
+            pessoais com a DevTrip e empresas parceiras. Para mais informações,
             consulte as{' '}
             <Link
               className="underline text-blue-600"
